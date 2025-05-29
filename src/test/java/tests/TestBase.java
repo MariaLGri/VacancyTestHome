@@ -20,7 +20,7 @@ public class TestBase {
         String browserVersion = System.getProperty("browserVersion", "127.0");
         String screenResolution = System.getProperty("screenResolution", "1920x1080");
 
-        Configuration.baseUrl = "https://demoqa.com";
+        Configuration.baseUrl = "https://penza.hh.ru";
         Configuration.browserSize = screenResolution;
         Configuration.browser = browser;
         Configuration.browserVersion = browserVersion;
