@@ -1,6 +1,7 @@
 package tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.VacancyJavaQaPage;
 
@@ -8,6 +9,7 @@ import static io.qameta.allure.Allure.step;
 
 
 @DisplayName("Автотесты на форму вакансии на сайте НН")
+@Tag("start")
 public class VacancyTest extends TestBase{
     VacancyJavaQaPage vacancyJavaQaPage =new VacancyJavaQaPage();
 
