@@ -21,8 +21,8 @@ public class VacancyJavaQaPage {
 
      public VacancyJavaQaPage openPage(){
     open("/vacancy/120964676?query=Автоматизация+тестирования+java&hhtmFrom=vacancy_search_list");
-    executeJavaScript("$('#fixedban').remove()"); // убирает рекламу
-    executeJavaScript("$('footer').remove()"); // убирает рекламу
+    executeJavaScript("$('#fixedban').remove()"); // убирает рек
+    executeJavaScript("$('footer').remove()"); // убирает рек
     return this;
 }
 
