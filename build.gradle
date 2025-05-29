@@ -26,11 +26,16 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.10.2",
             'org.junit.jupiter:junit-jupiter-engine:5.10.2',
             'io.qameta.allure:allure-selenide:2.29.1',
+            'io.qameta.allure:allure-junit5:2.20.0',
+            'org.junit.jupiter:junit-jupiter-api:5.8.1',
             'com.github.javafaker:javafaker:1.0.2',
             'org.slf4j:slf4j-simple:2.0.7' // для улучшения логирования
 
     )
-
+    dependencies {
+        testImplementation 'io.qameta.allure:allure-junit5:2.20.0'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    }
 }
 
 tasks.withType(Test) {
