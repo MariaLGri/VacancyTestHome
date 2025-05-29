@@ -1,5 +1,6 @@
 package pages;
 
+import com.codeborne.selenide.ClickOptions;
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
@@ -9,20 +10,23 @@ import static com.codeborne.selenide.Condition.*;
 
 import static com.codeborne.selenide.Selenide.*;
 
+
 public class VacancyJavaQaPage {
     private final SelenideElement
             clickeReview = $(".item--Kt3MXU1OVEVIrIg5"),
             textH = $("[data-qa='reviews-modal-review-title']"),
             namePage = $(".bloko-header-section-1"),
+pageCompany = $("h1[data-qa=\"title\"]"),
+           textBlock = $("[data-qa='employer-review-big-widget-modal-review-card-0']").$("[class*='magritte-text'][class*='typography-label-2-regular']");
 
-            textBlock = $("[data-qa='employer-review-big-widget-modal-review-card-0']").$("[class*='magritte-text'][class*='typography-label-2-regular']");
+    private final ElementsCollection
+            stars = $$("[data-qa='employer-reviews-stars'] .star_filled--KqHIdEHHkRDhXdlH"),
+            link = $$("div[data-qa=vacancy-company] span");
 
-    private final ElementsCollection stars = $$("[data-qa='employer-reviews-stars'] .star_filled--KqHIdEHHkRDhXdlH");
 
      public VacancyJavaQaPage openPage(){
     open("/vacancy/120964676?query=Автоматизация+тестирования+java&hhtmFrom=vacancy_search_list");
-    executeJavaScript("$('#fixedban').remove()"); // убирает рек
-    executeJavaScript("$('footer').remove()"); // убирает рек
+        executeJavaScript("$('footer').remove()"); // убирает рек
     return this;
 }
 
@@ -62,5 +66,13 @@ public VacancyJavaQaPage checkTextReviewBlock(){
         return this;
     }
 
-
+    public VacancyJavaQaPage checkCompanyClickPage(){
+         link.findBy(exactText("Offer Now"))
+                .click();
+        return this;
+    }
+    public VacancyJavaQaPage checkCompanyClickPageNew(){
+        pageCompany.shouldHave(exactText("Offer Now"));
+        return this;
+    }
 }

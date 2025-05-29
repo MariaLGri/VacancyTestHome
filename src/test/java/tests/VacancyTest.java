@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.VacancyJavaQaPage;
 
+import static com.codeborne.selenide.Selenide.sleep;
 import static io.qameta.allure.Allure.step;
 
 
@@ -55,6 +56,19 @@ public class VacancyTest extends TestBase{
             vacancyJavaQaPage.openPage();});
         step("Проверяем общую оценку компании, должна быть больше или равна 4.9 ", () ->{
             vacancyJavaQaPage.checkStarsCompany();});
+    }
+
+    @Test
+    @DisplayName("Проверка перехода на страницу компании")
+    void vacancyCompanyTest() {
+        step("Проверяем открытие страницы вакансии Auto QA (Java)", () ->{
+            vacancyJavaQaPage.openPage();});
+        sleep(5000);
+                step("Проверяем переход по клику на страницу компании ", () ->{
+            vacancyJavaQaPage.checkCompanyClickPage();});
+
+        step("Проверяем страницу компании на которую перешли ", () ->{
+            vacancyJavaQaPage.checkCompanyClickPageNew();});
     }
 }
 
