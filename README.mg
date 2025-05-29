@@ -68,7 +68,7 @@ gradle clean test -Dselenoid_url="selenoid.autotests.cloud/wd/hub" -Dbrowser_siz
 На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов: сколько из них добавлены и проходятся вручную, сколько автоматизированы. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/screens/AllureTestOps.png">
+<img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/13/allure/>
 </p>
 
 ### Результат выполнения автотеста
