@@ -109,5 +109,5 @@ all_test
 
 
 <p align="center">
-  <img title="Selenoid Video" src="media/Video/video.gif">
+  <img src="media/Video/video.gif" alt="Demo" width="600">
 </p>
