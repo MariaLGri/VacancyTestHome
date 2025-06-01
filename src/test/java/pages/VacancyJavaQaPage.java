@@ -16,7 +16,7 @@ public class VacancyJavaQaPage {
             clickeReview = $(".item--Kt3MXU1OVEVIrIg5"),
             textH = $("[data-qa='reviews-modal-review-title']"),
             namePage = $(".bloko-header-section-1"),
-pageCompany = $(".g-user-content p"),
+pageCompany = $(".g-user-content p").$("strong"),
            textBlock = $("[data-qa='employer-review-big-widget-modal-review-card-0']").$("[class*='magritte-text'][class*='typography-label-2-regular']");
 
     private final ElementsCollection
