@@ -15,18 +15,17 @@
 ## :computer: Используемый стек
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="media/logo/Java.svg">
-<img width="6%" title="Selenide" src="media/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg">
-<img width="5%" title="Allure TestOps" src="media/logo/AllureTestOps.svg">
-<img width="6%" title="Gradle" src="media/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/logo/Telegram.svg">
-<img width="5%" title="Jira" src="media/logo/Jira.svg">
+<img width=10%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
+<img width="10%" title="Java" src="media/icons/Java.png">
+<img width="10%" title="selenide" src="media/icons/Selenide.png">
+<img width="10%" title="Selenoid" src="media/icons/Selenoid.png">
+<img width="10%" title="Allure Report" src="media/icons/Allure_Report.png">
+<img width="10%" title="Gradle" src="media/icons/Gradle.png">
+<img width="10%" title="JUnit5" src="media/icons/JUnit5.png">
+<img width="7%" title="GitHub" src="media/icons/github.png">
+<img width="10%" title="Jenkins" src="media/icons/Jenkins.png">
+<img width="10%" title="Telegram" src="media/icons/Telegram.png">
+<!--<img width="5%" title="Jira" src="media/logo/Jira.svg">-->
 </p>
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
@@ -48,10 +47,9 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 ```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
+<img src="./media/JenkinsLogo.svg" alt="Jenkins Logo" width="80">
 
-<p> 
-  <img src="media/Jenkins_Logo.png" alt="Jenkins Logo" width="80px" height="80px">
-</p> 
+![JenkinsLogo](media/JenkinsLogo.svg)
 
 Сборка в Jenkins
 
