@@ -15,16 +15,16 @@
 ## :computer: Используемый стек
 
 <p align="center">
-<img width=10%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
-<img width="10%" title="Java" src="media/icons/Java.png">
-<img width="10%" title="selenide" src="media/icons/Selenide.png">
-<img width="10%" title="Selenoid" src="media/icons/Selenoid.png">
-<img width="10%" title="Allure Report" src="media/icons/Allure_Report.png">
-<img width="10%" title="Gradle" src="media/icons/Gradle.png">
-<img width="10%" title="JUnit5" src="media/icons/JUnit5.png">
-<img width="7%" title="GitHub" src="media/icons/github.png">
-<img width="10%" title="Jenkins" src="media/icons/Jenkins.png">
-<img width="10%" title="Telegram" src="media/icons/Telegram.png">
+<img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
+<img width="7%" title="Java" src="media/icons/Java.png">
+<img width="7%" title="selenide" src="media/icons/Selenide.png">
+<img width="7%" title="Selenoid" src="media/icons/Selenoid.png">
+<img width="7%" title="Allure Report" src="media/icons/Allure_Report.png">
+<img width="7%" title="Gradle" src="media/icons/Gradle.png">
+<img width="7%" title="JUnit5" src="media/icons/JUnit5.png">
+<img width="5%" title="GitHub" src="media/icons/github.png">
+<img width="7%" title="Jenkins" src="media/icons/Jenkins.png">
+<img width="7%" title="Telegram" src="media/icons/Telegram.png">
 <!--<img width="5%" title="Jira" src="media/logo/Jira.svg">-->
 </p>
 
@@ -46,12 +46,13 @@
 gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920x1200 -DselenoidUrl=selenoid.autotests.cloud 
 ```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
+  
+<p align="center"> Сборка в Jenkins
+<img width="80" src="media/pictures/jenkins_logo.png" alt="Jenkins Logo">
+</p>
 
-<img src="./media/JenkinsLogo.svg" alt="Jenkins Logo" width="80">
 
-![JenkinsLogo](media/JenkinsLogo.svg)
 
-Сборка в Jenkins
 
 Для запуска сборки необходимо перейти в раздел <code> Build with Parameters:</code> и нажать кнопку <code>Build</code>.
 <p align="center">
