@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="media/Project Logo.png" alt="HAR Logo" width="80px" height="80px">
+  <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="700px" height="80px">
 </p>
 # Проект по автоматизации тестовых сценариев для сайта компании "Offer Now"
 
