@@ -48,7 +48,7 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
   
 <p align="center"> 
-<img width="80" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo">
+<img width="150" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo">
 </p>
 Сборка в Jenkins
 
