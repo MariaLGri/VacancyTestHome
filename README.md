@@ -99,7 +99,7 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screens/Bot.png">
+<img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
