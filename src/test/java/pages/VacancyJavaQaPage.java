@@ -28,7 +28,7 @@ pageCompany = $("h1[data-qa=\"title\"]"),
     open("/vacancy/120964676?query=Автоматизация+тестирования+java&hhtmFrom=vacancy_search_list");
         executeJavaScript("$('footer').remove()"); // убирает рек
        //  $(".bloko-button bloko-button_kind-primary").click();
-         executeJavaScript("document.querySelector('.popup').style.display = 'none';");
+         // executeJavaScript("document.querySelector('.popup').style.display = 'none';");
     return this;
 }
 

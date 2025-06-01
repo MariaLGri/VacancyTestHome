@@ -63,7 +63,7 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 
 <img title="Jenkins Build" src="media/screens/jenkins.png">
 </p>
-После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
+После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
 ## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
 ### Overview
