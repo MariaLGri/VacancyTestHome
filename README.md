@@ -50,11 +50,13 @@
 gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920x1200 -DselenoidUrl=selenoid.autotests.cloud 
 ```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
-  
+
+
 <p align="center"> 
-<img width="550" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo">
-</p>
+<img width="20" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo">
 Сборка в Jenkins
+</p>
+
 
 
 
@@ -72,9 +74,6 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 <img title="Allure Overview" src="media/screens/allure.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/logo/AllureTestOps.svg"> Интеграция с Allure TestOps
-
-На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов: сколько из них добавлены и проходятся вручную, сколько автоматизированы. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
 
 <p align="center">
 <img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/13/allure/>
@@ -82,11 +81,6 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 
 ### Результат выполнения автотестов
 
-<p align="center">
-<img title="Test Results in Alure TestOps" src="media/screens/allurResults.png">
-</p>
-
-## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> Интеграция с Jira
 
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
