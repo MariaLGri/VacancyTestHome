@@ -3,11 +3,11 @@
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="500px" height="80px">
 </p>
 
-## Это проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru/ "Официальный сайт компании")
+# Это проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru"Официальный сайт компании")
 
 
 
-### :scroll: Содержание:
+## :scroll: Содержание:
 
 - [Используемый стек](#computer-используемый-стек)
 - [Запуск автотестов](#arrow_forward-запуск-автотестов)
@@ -47,14 +47,20 @@
 
 ### Запуск тестов из терминала
 ```
-gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920x1200 -DselenoidUrl=selenoid.autotests.cloud 
+gradle clean 
+all_test 
+-Dbrowser=chrome 
+-DbrowserVersion=127.0 
+-DbrowserSize=1920x1200 
+-DselenoidUrl=selenoid.autotests.cloud 
 ```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
 
 <p align="center"> 
-<img width="20" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo">
-Сборка в Jenkins
+
+## <img width="30" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+
 </p>
 
 
@@ -65,18 +71,23 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 
 <img title="Jenkins Build" src="media/pictures/build.PNG">
 </p>
+
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> Пример Allure-отчета
+<p align="center">
+
+## <img width="30" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 ### Overview
 
+</p>
+
 <p align="center">
-<img title="Allure Overview" src="media/screens/allure.png">
+<img title="Allure Overview" src="media/pictures/allure_overview.png">
 </p>
 
 
 <p align="center">
-<img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/13/allure/>
+<img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#>
 </p>
 
 ### Результат выполнения автотестов
