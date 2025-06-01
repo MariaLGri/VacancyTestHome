@@ -3,9 +3,10 @@
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="400px" height="70px">
 </p>
 
+
 <p align="center">
   Проект по автоматизации для сайта компании <br>
-  <a href="https://example.com" style="color: #05f2fa;>Offer Now</a>
+  <a href="https://example.com" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
 </p>
 
 
