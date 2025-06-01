@@ -130,10 +130,11 @@ all_test
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
+<a id="видео-примера-запуска-тестов"></a>
 
 # <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
 
-<a id="видео-примера-запуска-тестов"></a>
+
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 
