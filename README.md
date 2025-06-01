@@ -50,7 +50,7 @@
 <a id="запуск-автотестов"></a>
 # :arrow_forward: Запуск автотестов
 
-### Запуск тестов из терминала
+# Запуск тестов из терминала
 ```
 gradle clean 
 all_test 
@@ -65,7 +65,7 @@ all_test
 <a id="сборка-в-jenkins"></a>
 <p align="center"> 
 
-## <img width="6%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+# <img width="6%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -83,7 +83,7 @@ all_test
 <a id="пример-allure-отчета"></a>
 <p align="center">
 
-## <img width="6%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
+# <img width="6%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 ### Overview
 
 </p>
@@ -97,8 +97,7 @@ all_test
 <img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#>
 </p>
 
-### 
-### <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
+# <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
 
 <a id="уведомления-в-telegram"></a>
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
@@ -107,7 +106,7 @@ all_test
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
-### <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
+# <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
 
 <a id="видео-примера-запуска-тестов"></a>
 
