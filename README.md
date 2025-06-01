@@ -1,10 +1,12 @@
 
 <p align="center"> 
-  <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="500px" height="80px">
+  <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="400px" height="70px">
 </p>
 
-# Это проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru"Официальный сайт компании")
-
+<p align="center">
+  Проект по автоматизации для сайта компании <br>
+  <a href="https://example.com" style="color: #05f2fa;>Offer Now</a>
+</p>
 
 
 ## :scroll: Содержание:
@@ -59,7 +61,7 @@ all_test
 
 <p align="center"> 
 
-## <img width="30" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+## <img width="7%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -76,7 +78,7 @@ all_test
 
 <p align="center">
 
-## <img width="30" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
+## <img width="7%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 ### Overview
 
 </p>
@@ -100,9 +102,11 @@ all_test
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
+### <img width="7%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
+
+
 <p align="center">
-  <img title="Selenoid Video" src="media/screens/Video.gif">
+  <img title="Selenoid Video" src="media/Video/video.gif">
 </p>
