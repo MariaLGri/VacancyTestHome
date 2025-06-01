@@ -97,8 +97,8 @@ all_test
 <img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#>
 </p>
 
-### Результат выполнения автотестов
-
+### 
+### <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
 
 <a id="уведомления-в-telegram"></a>
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
