@@ -1,7 +1,8 @@
 <p align="center"> 
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="500px" height="80px">
 </p>
-# Проект по автоматизации тестовых сценариев для сайта компании "Offer Now"
+
+# Проект по автоматизации тестовых сценариев для сайта компании <span style="color:#2e86c1">"Offer Now"</span>
 
 ## :scroll: Содержание:
 
