@@ -2,9 +2,9 @@
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="500px" height="80px">
 </p>
 
-# Проект по автоматизации тестовых сценариев для сайта компании <span style="color:#2e86c1">"Offer Now"</span>
+## Проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru/ "Официальный сайт компании")
 
-## :scroll: Содержание:
+### :scroll: Содержание:
 
 - [Используемый стек](#computer-используемый-стек)
 - [Запуск автотестов](#arrow_forward-запуск-автотестов)
@@ -13,7 +13,7 @@
 - [Уведомления в Telegram](#-уведомления-в-telegram)
 - [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
 
-## :computer: Используемый стек
+### :computer: Используемый стек
 
 <p align="center">
 <img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
