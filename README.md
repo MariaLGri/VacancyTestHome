@@ -20,11 +20,17 @@
        background: rgba(1, 253, 250, 0.1);
        border: 1px solid #01fdfa;
      "
-     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 10px rgba(1, 253, 250, 0.5)'"
-     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+     class="animated-link">
     Offer Now
   </a>
 </p>
+
+<style>
+  .animated-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(1, 253, 250, 0.5);
+  }
+</style>
 
 
 ## :scroll: Содержание:
