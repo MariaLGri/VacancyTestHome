@@ -6,7 +6,7 @@
 
 <p align="center">
   Проект по автоматизации для сайта компании <br>
-  <a href="https://example.com" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
+  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
 </p>
 
 
