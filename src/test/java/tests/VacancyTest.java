@@ -67,7 +67,7 @@ public class VacancyTest extends TestBase{
                 step("Проверяем переход по клику на страницу компании ", () ->{
             vacancyJavaQaPage.checkCompanyClickPage();});
 
-        step("Проверяем страницу компании на которую перешли ", () ->{
+        step("Проверяем присутствие описания компании на странице", () ->{
             vacancyJavaQaPage.checkCompanyClickPageNew();});
     }
 }

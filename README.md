@@ -61,7 +61,7 @@ gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920
 Для запуска сборки необходимо перейти в раздел <code> Build with Parameters:</code> и нажать кнопку <code>Build</code>.
 <p align="center">
 
-<img title="Jenkins Build" src="media/screens/jenkins.png">
+<img title="Jenkins Build" src="media/pictures/build.PNG">
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
