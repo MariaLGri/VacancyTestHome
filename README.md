@@ -1,5 +1,8 @@
-
+<p align="center"> 
+  <img src="media/Project Logo.png" alt="HAR Logo" width="80px" height="80px">
+</p>
 # Проект по автоматизации тестовых сценариев для сайта компании "Offer Now"
+
 ## :scroll: Содержание:
 
 - [Используемый стек](#computer-используемый-стек)
@@ -41,15 +44,20 @@
 
 ### Запуск тестов из терминала
 ```
-
-gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920x1200 -DselenoidUrl=selenoid.autotests.cloud ```
+gradle clean all_test -Dbrowser=chrome -DbrowserVersion=127.0 -DbrowserSize=1920x1200 -DselenoidUrl=selenoid.autotests.cloud 
+```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/Jenkins.svg"> Сборка в Jenkins
+<p> 
+  <img src="media/Jenkins_Logo.png" alt="Jenkins Logo" width="80px" height="80px">
+</p> 
+
+Сборка в Jenkins
 
 Для запуска сборки необходимо перейти в раздел <code> Build with Parameters:</code> и нажать кнопку <code>Build</code>.
 <p align="center">
+
 <img title="Jenkins Build" src="media/screens/jenkins.png">
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
