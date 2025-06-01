@@ -12,14 +12,15 @@
 
 ## :scroll: Содержание:
 
-- [Используемый стек](#computer-используемый-стек)
-- [Запуск автотестов](#arrow_forward-запуск-автотестов)
-- [Сборка в Jenkins](#-сборка-в-jenkins)
-- [Пример Allure-отчета](#-пример-allure-отчета)
-- [Уведомления в Telegram](#-уведомления-в-telegram)
-- [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
+- [Используемый стек](#используемый-стек)
+- [Запуск автотестов](#запуск-автотестов)
+- [Сборка в Jenkins](#сборка-в-jenkins)
+- [Пример Allure-отчета](#пример-allure-отчета)
+- [Уведомления в Telegram](#уведомления-в-telegram)
+- [Видео примера запуска тестов](#видео-примера-запуска-тестов)
 
-### :computer: Используемый стек
+<a id="используемый-стек"></a>
+# :computer: Используемый стек
 
 <p align="center">
 <img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
@@ -46,7 +47,8 @@
 * Логи браузерной консоли;
 * Видео выполнения автотеста.
 
-## :arrow_forward: Запуск автотестов
+<a id="запуск-автотестов"></a>
+# :arrow_forward: Запуск автотестов
 
 ### Запуск тестов из терминала
 ```
@@ -60,9 +62,10 @@ all_test
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
 
+<a id="сборка-в-jenkins"></a>
 <p align="center"> 
 
-## <img width="7%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+## <img width="6%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -77,9 +80,10 @@ all_test
 
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
+<a id="пример-allure-отчета"></a>
 <p align="center">
 
-## <img width="7%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
+## <img width="6%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 ### Overview
 
 </p>
@@ -96,14 +100,16 @@ all_test
 ### Результат выполнения автотестов
 
 
-
+<a id="уведомления-в-telegram"></a>
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
-### <img width="7%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
+### <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
+
+<a id="видео-примера-запуска-тестов"></a>
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 
