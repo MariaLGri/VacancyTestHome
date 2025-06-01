@@ -6,31 +6,8 @@
 
 <p align="center">
   Проект по автоматизации для сайта компании <br>
-  <a href="https://offer-now.ru/" 
-     title="Официальный сайт"
-     style="
-       color: #01fdfa;
-       font-size: 18px;
-       font-weight: bold;
-       text-decoration: none;
-       transition: all 0.3s ease;
-       display: inline-block;
-       padding: 8px 16px;
-       border-radius: 4px;
-       background: rgba(1, 253, 250, 0.1);
-       border: 1px solid #01fdfa;
-     "
-     class="animated-link">
-    Offer Now
-  </a>
+  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
 </p>
-
-<style>
-  .animated-link:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(1, 253, 250, 0.5);
-  }
-</style>
 
 
 ## :scroll: Содержание:
@@ -130,10 +107,11 @@ all_test
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
+
+
 <a id="видео-примера-запуска-тестов"></a>
 
 # <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
-
 
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
