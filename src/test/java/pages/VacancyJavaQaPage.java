@@ -27,6 +27,7 @@ pageCompany = $("h1[data-qa=\"title\"]"),
      public VacancyJavaQaPage openPage(){
     open("/vacancy/120964676?query=Автоматизация+тестирования+java&hhtmFrom=vacancy_search_list");
         executeJavaScript("$('footer').remove()"); // убирает рек
+         $("[data-qa=cookies-policy-informer]").click();
     return this;
 }
 

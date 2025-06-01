@@ -3,10 +3,9 @@
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="500px" height="80px">
 </p>
 
-<p align="center"> 
-Проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru/ "Официальный сайт компании")
+## Это проект по автоматизации тестовых сценариев для сайта компании [Offer Now](https://offer-now.ru/ "Официальный сайт компании")
 
-</p>
+
 
 ### :scroll: Содержание:
 
