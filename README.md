@@ -6,7 +6,24 @@
 
 <p align="center">
   Проект по автоматизации для сайта компании <br>
-  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
+  <a href="https://offer-now.ru/" 
+     title="Официальный сайт"
+     style="
+       color: #01fdfa;
+       font-size: 18px;
+       font-weight: bold;
+       text-decoration: none;
+       transition: all 0.3s ease;
+       display: inline-block;
+       padding: 8px 16px;
+       border-radius: 4px;
+       background: rgba(1, 253, 250, 0.1);
+       border: 1px solid #01fdfa;
+     "
+     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 10px rgba(1, 253, 250, 0.5)'"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+    Offer Now
+  </a>
 </p>
 
 
@@ -97,9 +114,11 @@ all_test
 <img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#>
 </p>
 
+<a id="уведомления-в-telegram"></a>
+
 # <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
 
-<a id="уведомления-в-telegram"></a>
+
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
