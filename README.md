@@ -165,9 +165,9 @@ all_test
 
 <p align="center">
    <br>
-<img width="60%" src="media/pictures/allure_testops_dahsbord.png">
+<img src="media/pictures/allure_testops_dahsbord.png">
  <br>
-  <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:16px;display:inline-block;">
+  <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:500;margin-top:16px;display:inline-block;">
     Открыть в Allure TestOps
   </a>
 </p>
