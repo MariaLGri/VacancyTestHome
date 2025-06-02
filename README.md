@@ -10,6 +10,8 @@
   </a>
 </div>
 
+---
+
 ## :scroll: Содержание:
 
 - [Используемый стек](#используемый-стек)
@@ -20,13 +22,15 @@
 - [Уведомления в Telegram](#уведомления-в-telegram)
 - [Видео примера запуска тестов](#видео-примера-запуска-тестов)
 
+---
+
 <a id="используемый-стек"></a>
 # :computer: Используемый стек
 
 <p align="center">
 <img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
 <img width="7%" title="Java" src="media/icons/Java.png">
-<img width="7%" title="Selenide" src="media/icons/selenide.png">
+<img width="7%" title="Selenide" src="media/icons/Selenide.png">
 <img width="7%" title="Selenoid" src="media/icons/Selenoid.png">
 <img width="7%" title="Allure Report" src="media/icons/Allure_Report.png">
 <img width="7%" title="Gradle" src="media/icons/Gradle.png">
@@ -37,9 +41,20 @@
 <img width="7%" title="Telegram" src="media/icons/Telegram.png">
 </p>
 
+---
+
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
 При прогоне тестов для запуска браузеров используется [Selenoid](https://aerokube.com/selenoid/).
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
+
+### Проверки
+- ✅ Проверка открытия страницы вакансии Auto QA (Java)
+- ✅ Проверка открытия карточки отзыва, и непустого содержимого в разделе 'Что нравится'
+- ✅ Проверка общей оценки компании,должна быть больше или равна 4.9 (падение т.к.текущий 4.8)
+- ✅ Проверка колличества звезд в отзыве
+- ✅ Проверка перехода на страницу компании
+
+---
 
 *Содержание Allure-отчета:*
 
@@ -52,7 +67,7 @@
 <a id="запуск-автотестов"></a>
 # :arrow_forward: Запуск автотестов
 
-# Запуск тестов из терминала
+## Запуск тестов из терминала
 ```
 gradle clean 
 all_test 
@@ -92,7 +107,7 @@ all_test
 
 ## 📊 Allure Report Insights
 
-### 🔍 Overview
+#### 🔍 Overview
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
@@ -105,7 +120,7 @@ all_test
 
 ### Suites
 
-### 📂 Test Suites
+#### 📂 Test Suites
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
@@ -116,10 +131,12 @@ all_test
   </a>
 </p>
 
-### 📈 Test Analytics
+### Graph
+
+#### 📈 Test Analytics
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
-    <img width="60%" src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+    <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
   <br>
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
@@ -128,10 +145,11 @@ all_test
 </p>
 
 
-
+---
 <a id="Интеграция"></a>
+# Интеграция
 
-# <img width="28px" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
+## <img width="28px" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
 
 ### 📈 Аналитика тестов в Allure TestOps
 
@@ -144,9 +162,12 @@ all_test
   </a>
 </p>
 
+---
 <a id="уведомления-в-telegram"></a>
 
-# <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
+# Результат выполнения автотестов
+
+## <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов в Телеграм
 
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
@@ -155,6 +176,7 @@ all_test
 <img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
+---
 
 <a id="видео-примера-запуска-тестов"></a>
 
