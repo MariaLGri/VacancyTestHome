@@ -31,7 +31,7 @@
 <img width="7%" title="Allure Report" src="media/icons/Allure_Report.png">
 <img width="7%" title="Gradle" src="media/icons/Gradle.png">
 <img width="7%" title="JUnit5" src="media/icons/JUnit5.png">
-<img width="5%" title="GitHub" src="media/icons/github.png">
+<img width="7%" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
 <img width="7%" title="Jenkins" src="media/icons/Jenkins.png">
 <img width="7%" title="Jenkins" src="media/icons/AllureTestOps.svg">
 <img width="7%" title="Telegram" src="media/icons/Telegram.png">
@@ -125,7 +125,7 @@ all_test
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
     📊 Анализ выполнения тестов
   </a>
-
+</p>
 
 
 
@@ -137,10 +137,8 @@ all_test
 
 <p align="center">
    <br>
-
-<p align="center">
 <img width="70%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
-</p>
+ <br>
   <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:16px;display:inline-block;">
     Открыть в Allure TestOps
   </a>
