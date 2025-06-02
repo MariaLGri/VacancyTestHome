@@ -11,6 +11,7 @@
 </div>
 
 ---
+---
 
 ## :scroll: Содержание:
 
@@ -28,17 +29,18 @@
 # :computer: Используемый стек
 
 <p align="center">
-<img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
-<img width="7%" title="Java" src="media/icons/Java.png">
-<img width="7%" title="Selenide" src="media/icons/Selenide.png">
-<img width="7%" title="Selenoid" src="media/icons/Selenoid.png">
-<img width="7%" title="Allure Report" src="media/icons/Allure_Report.png">
-<img width="7%" title="Gradle" src="media/icons/Gradle.png">
-<img width="7%" title="JUnit5" src="media/icons/JUnit5.png">
-<img width="7%" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-<img width="7%" title="Jenkins" src="media/icons/Jenkins.png">
-<img width="7%" title="Jenkins" src="media/icons/AllureTestOps.svg">
-<img width="7%" title="Telegram" src="media/icons/Telegram.png">
+<img width="28px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
+<img width="28px" title="Java" src="media/icons/Java.png"> 
+<img width="28px" title="Java" src="media/icons/Selenide.svg"> 
+<img width="28px" title="Selenoid" src="media/icons/Selenoid.png">
+<img width="28px" title="Allure Report" src="media/icons/Allure_Report.png">
+<img width="28px" title="Gradle" src="media/icons/Gradle.png">
+<img width="28px" title="JUnit5" src="media/icons/JUnit5.png">
+<img width="28px" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+<img width="28px" title="Jenkins" src="media/icons/Jenkins.png">
+<img width="28px" title="Jenkins" src="media/icons/AllureTestOps.svg">
+<img width="28px" title="Telegram" src="media/icons/Telegram.png">
+
 </p>
 
 ---
@@ -48,11 +50,15 @@
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
 ### Проверки
-- ✅ Проверка открытия страницы вакансии Auto QA (Java)
-- ✅ Проверка открытия карточки отзыва, и непустого содержимого в разделе 'Что нравится'
-- ✅ Проверка общей оценки компании,должна быть больше или равна 4.9 (падение т.к.текущий 4.8)
-- ✅ Проверка колличества звезд в отзыве
-- ✅ Проверка перехода на страницу компании
+
+✔️ **Проверка открытия страницы вакансии Auto QA (Java)**  
+✔️ **Проверка открытия карточки отзыва**
+* Проверка непустого содержимого в разделе "Что нравится"  
+✔️ **Проверка общей оценки компании**
+* Ожидаемый результат: ≥ 4.9
+* Текущий результат: 4.8 (падение)  
+✔️ **Проверка количества звёзд в отзыве**  
+✔️ **Проверка перехода на страницу компании**
 
 ---
 
@@ -78,6 +84,7 @@ all_test
 ```
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
+---
 
 <a id="сборка-в-jenkins"></a>
 <p align="center"> 
@@ -96,6 +103,8 @@ all_test
 </p>
 
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
+
+---
 
 <a id="пример-allure-отчета"></a>
 <p align="center">
@@ -146,6 +155,7 @@ all_test
 
 
 ---
+
 <a id="Интеграция"></a>
 # Интеграция
 
@@ -155,7 +165,7 @@ all_test
 
 <p align="center">
    <br>
-<img width="60%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
+<img width="60%" src="media/pictures/allure_testops_dahsbord.png">
  <br>
   <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:16px;display:inline-block;">
     Открыть в Allure TestOps
@@ -163,6 +173,7 @@ all_test
 </p>
 
 ---
+
 <a id="уведомления-в-telegram"></a>
 
 # Результат выполнения автотестов
@@ -173,7 +184,7 @@ all_test
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
+<img width="60%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
 ---
