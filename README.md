@@ -88,25 +88,43 @@ all_test
 
 
 
-### Overview
+## 📊 Allure Report Insights
 
+### 🔍 Overview
 <p align="center">
-<img title="Allure Overview" src="media/pictures/allure_overview.png">
-</p>
-
-<p align="center">
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank">
-    Открыть Allure-отчёт в Jenkins
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  </a>
+  <br>
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #01fdfa; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+    🚀 Открыть полный отчёт
   </a>
 </p>
 
+### Suites
 
-<a id="уведомления-в-telegram"></a>
-<p align="left">
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank">
-    <img src="media/pictures/allure_overview.png" alt="Allure Report" width="7%">
+### 📂 Test Suites
+<p align="center">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+  </a>
+  <br>
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #6a5acd; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+    🔎 Детализация тест-сьютов
   </a>
 </p>
+
+### 📈 Test Analytics
+<p align="center">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+  </a>
+  <br>
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+    📊 Анализ выполнения тестов
+  </a>
+</p>
+
 <a id="уведомления-в-telegram"></a>
 
 # <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
@@ -128,5 +146,5 @@ all_test
 
 
 <p align="center">
-  <img src="media/Video/video.gif" alt="Demo" width="600">
+  <img src="media/Video/video.gif" alt="Demo" width="500">
 </p>
