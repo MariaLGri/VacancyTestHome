@@ -26,7 +26,7 @@
 <p align="center">
 <img width="7%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
 <img width="7%" title="Java" src="media/icons/Java.png">
-<img width="7%" title="selenide" src="media/icons/Selenide.png">
+<img width="7%" title="Selenide" src="media/icons/selenide.png">
 <img width="7%" title="Selenoid" src="media/icons/Selenoid.png">
 <img width="7%" title="Allure Report" src="media/icons/Allure_Report.png">
 <img width="7%" title="Gradle" src="media/icons/Gradle.png">
@@ -35,14 +35,14 @@
 <img width="7%" title="Jenkins" src="media/icons/Jenkins.png">
 <img width="7%" title="Jenkins" src="media/icons/AllureTestOps.svg">
 <img width="7%" title="Telegram" src="media/icons/Telegram.png">
-<!--<img width="5%" title="Jira" src="media/logo/Jira.svg">-->
 </p>
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
 При прогоне тестов для запуска браузеров используется [Selenoid](https://aerokube.com/selenoid/).
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
-Содержание Allure-отчета:
+*Содержание Allure-отчета:*
+
 * Шаги теста;
 * Скриншот страницы на последнем шаге;
 * Page Source;
@@ -119,7 +119,7 @@ all_test
 ### 📈 Test Analytics
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
-    <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+    <img width="60%" src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
   <br>
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
@@ -137,7 +137,7 @@ all_test
 
 <p align="center">
    <br>
-<img width="70%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
+<img width="60%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
  <br>
   <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:16px;display:inline-block;">
     Открыть в Allure TestOps
