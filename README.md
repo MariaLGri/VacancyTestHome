@@ -125,26 +125,26 @@ all_test
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
     📊 Анализ выполнения тестов
   </a>
-</p>
+
+
+
 
 <a id="Интеграция"></a>
 
-# <img width="28px" style="vertical-align:middle" alt="Allure TestOps" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
-### 📈 Test Analytics in Allure TestOps
+# <img width="28px" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
+
+### 📈 Аналитика тестов в Allure TestOps
+
+<p align="center">
+   <br>
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
 </p>
-
-<div align="center" style="margin: 20px 0;">
-
-[![Allure TestOps Analytics Dashboard](media/pictures/allure-testops-dashboard.png)](https://allure.autotests.cloud/project/4774/dashboards "Открыть Allure TestOps")
-
-{style="border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 800px;"}
-
-[➡️ Open in Allure TestOps](https://your-instance.allure-testops.cloud/project/123/dashboard){ .md-button .md-button--primary style="margin-top: 12px; background-color: #00B4A0; color: white; padding: 10px 24px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;" }
-
-</div>
+  <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:16px;display:inline-block;">
+    Открыть в Allure TestOps
+  </a>
+</p>
 
 <a id="уведомления-в-telegram"></a>
 
