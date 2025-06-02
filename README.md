@@ -16,6 +16,7 @@
 - [Запуск автотестов](#запуск-автотестов)
 - [Сборка в Jenkins](#сборка-в-jenkins)
 - [Пример Allure-отчета](#пример-allure-отчета)
+- [Интеграция](#Интеграция)
 - [Уведомления в Telegram](#уведомления-в-telegram)
 - [Видео примера запуска тестов](#видео-примера-запуска-тестов)
 
@@ -32,6 +33,7 @@
 <img width="7%" title="JUnit5" src="media/icons/JUnit5.png">
 <img width="5%" title="GitHub" src="media/icons/github.png">
 <img width="7%" title="Jenkins" src="media/icons/Jenkins.png">
+<img width="7%" title="Jenkins" src="media/icons/AllureTestOps.svg">
 <img width="7%" title="Telegram" src="media/icons/Telegram.png">
 <!--<img width="5%" title="Jira" src="media/logo/Jira.svg">-->
 </p>
@@ -65,7 +67,7 @@ all_test
 <a id="сборка-в-jenkins"></a>
 <p align="center"> 
 
-# <img width="6%" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+# <img width="28px" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -83,7 +85,7 @@ all_test
 <a id="пример-allure-отчета"></a>
 <p align="center">
 
-# <img width="6%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
+# <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 
 
 
@@ -125,9 +127,14 @@ all_test
   </a>
 </p>
 
+<a id="Интеграция"></a>
+
+# <img width="28px" style="vertical-align:middle" alt="Allure TestOps" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
+
+
 <a id="уведомления-в-telegram"></a>
 
-# <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
+# <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
 
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
