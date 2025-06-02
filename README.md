@@ -84,19 +84,29 @@ all_test
 <p align="center">
 
 # <img width="6%" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
-### Overview
 
-</p>
+
+
+
+### Overview
 
 <p align="center">
 <img title="Allure Overview" src="media/pictures/allure_overview.png">
 </p>
 
-
 <p align="center">
-<img title=https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#>
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank">
+    Открыть Allure-отчёт в Jenkins
+  </a>
 </p>
 
+
+<a id="уведомления-в-telegram"></a>
+<p align="left">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank">
+    <img src="media/pictures/allure_overview.png" alt="Allure Report" width="7%">
+  </a>
+</p>
 <a id="уведомления-в-telegram"></a>
 
 # <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов
