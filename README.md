@@ -29,17 +29,17 @@
 # :computer: Используемый стек
 
 <p align="center">
-<img width="28px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
-<img width="28px" title="Java" src="media/icons/Java.png"> 
-<img width="28px" title="Java" src="media/icons/Selenide.svg"> 
-<img width="28px" title="Selenoid" src="media/icons/Selenoid.png">
-<img width="28px" title="Allure Report" src="media/icons/Allure_Report.png">
-<img width="28px" title="Gradle" src="media/icons/Gradle.png">
-<img width="28px" title="JUnit5" src="media/icons/JUnit5.png">
-<img width="28px" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-<img width="28px" title="Jenkins" src="media/icons/Jenkins.png">
-<img width="28px" title="Jenkins" src="media/icons/AllureTestOps.svg">
-<img width="28px" title="Telegram" src="media/icons/Telegram.png">
+<img width="50px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
+<img width="50px" title="Java" src="media/icons/Java.png"> 
+<img width="50px" title="Java" src="media/icons/Selenide.svg"> 
+<img width="50px" title="Selenoid" src="media/icons/Selenoid.png">
+<img width="50px" title="Allure Report" src="media/icons/Allure_Report.png">
+<img width="50px" title="Gradle" src="media/icons/Gradle.png">
+<img width="50px" title="JUnit5" src="media/icons/JUnit5.png">
+<img width="50px" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+<img width="50px" title="Jenkins" src="media/icons/Jenkins.png">
+<img width="50px" title="Jenkins" src="media/icons/AllureTestOps.svg">
+<img width="50px" title="Telegram" src="media/icons/Telegram.png">
 
 </p>
 
