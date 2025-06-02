@@ -1,6 +1,6 @@
 
 <p align="center"> 
-  <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="400px" height="70px">
+  <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400px" height="70px">
 </p>
 
 <div align="center">
@@ -130,7 +130,21 @@ all_test
 <a id="Интеграция"></a>
 
 # <img width="28px" style="vertical-align:middle" alt="Allure TestOps" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
+### 📈 Test Analytics in Allure TestOps
 
+<p align="center">
+<img width="70%" title="Telegram Notifications" src="media/pictures/allure_testops_dahsbord.png">
+</p>
+
+<div align="center" style="margin: 20px 0;">
+
+[![Allure TestOps Analytics Dashboard](media/pictures/allure-testops-dashboard.png)](https://allure.autotests.cloud/project/4774/dashboards "Открыть Allure TestOps")
+
+{style="border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 800px;"}
+
+[➡️ Open in Allure TestOps](https://your-instance.allure-testops.cloud/project/123/dashboard){ .md-button .md-button--primary style="margin-top: 12px; background-color: #00B4A0; color: white; padding: 10px 24px; border-radius: 6px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;" }
+
+</div>
 
 <a id="уведомления-в-telegram"></a>
 
