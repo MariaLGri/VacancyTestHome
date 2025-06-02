@@ -3,39 +3,12 @@
   <img src="media/pictures/companн_logo.png" alt="HAR Logo" width="400px" height="70px">
 </p>
 
-
-<p align="center">
-  Проект по автоматизации для сайта компании <br>
-  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #01fdfa; font-size: 18px;">Offer Now</a>
-</p>
-
-<p align="center" style="font-size: 24px; font-weight: 700; margin-bottom: 20px;">
-  ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ
-</p>
-
-<p align="center">
-  <a href="https://offer-now.ru/" 
-     title="Официальный сайт" 
-     style="
-       display: inline-block;
-       padding: 12px 30px;
-       background-color: #01fdfa;
-       color: #000;
-       font-size: 20px;
-       font-weight: 700;
-       text-decoration: none;
-       border-radius: 30px;
-       box-shadow: 0 4px 8px rgba(1, 253, 250, 0.3);
-       transition: all 0.3s ease;
-     "
-     onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 12px rgba(1, 253, 250, 0.4)'"
-     onmouseout="this.style.transform='';this.style.boxShadow='0 4px 8px rgba(1, 253, 250, 0.3)'"
-  >
+<div align="center">
+  <h3>ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ</h3>
+  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #0066cc; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
     OFFER NOW
   </a>
-</p>
-
-
+</div>
 
 ## :scroll: Содержание:
 
