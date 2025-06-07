@@ -1,6 +1,12 @@
-<p align="center"> 
-<a href="https://offer-now.ru/" title="Официальный сайт компании" style="color: #0066cc; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
-  <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400px" height="70px">
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 10px;">
+<p align="center">
+  <a href="https://offer-now.ru/" target="_blank" title="Официальный сайт компании" style="text-decoration: none;">
+    <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400" height="70" style="border: 0;">
+    <br>
+    <span style="color: #0066cc; font-size: 1.25rem; font-weight: 600; margin-top: 8px; display: inline-block;">
+      Официальный сайт
+    </span>
+  </a>
 </p>
 
 <div align="center">
@@ -178,6 +184,8 @@ Report</code>, при клике на которую откроется стра
 <img width="400" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
+<br>
+
 ---
 
 <a id="видео-примера-запуска-тестов"></a>
@@ -191,3 +199,4 @@ Report</code>, при клике на которую откроется стра
 <p align="center">
   <img src="media/Video/video.gif" alt="Demo" width="500">
 </p>
+</div>
