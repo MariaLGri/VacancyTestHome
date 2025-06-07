@@ -42,8 +42,8 @@
 </p>
 
 
-Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
-При прогоне тестов для запуска браузеров используется Selenoid().
+Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>Selenide<code>, сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
+При прогоне тестов для запуска браузеров используется <code>Selenoid<code>.
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
 ### ✅ Проверки
@@ -57,9 +57,8 @@
 - ✔️ **Проверка количества звёзд в отзыве**
 - ✔️ **Проверка перехода на страницу компании**
 
----
 
-*Содержание Allure-отчета:*
+### Содержание Allure-отчета:
 
 * Шаги теста;
 * Скриншот страницы на последнем шаге;
@@ -67,10 +66,11 @@
 * Логи браузерной консоли;
 * Видео выполнения автотеста.
 
-<a id="запуск-автотестов"></a>
-# :arrow_forward: Запуск автотестов
+---
 
-## Запуск тестов из терминала
+<a id="запуск-автотестов"></a>
+
+## Запуск тестов из автотестов терминала
 ```
 gradle clean 
 all_test 
@@ -111,9 +111,9 @@ all_test
 
 
 
-## 📊 Allure Report Insights
+## 📊 Аналитика Allure Report
 
-#### 🔍 Overview
+#### 🔍 Обзор
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
@@ -124,9 +124,9 @@ all_test
   </a>
 </p>
 
-### Suites
+### Тест-сьюты
 
-#### 📂 Test Suites
+#### 📂 Группы тестов
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
@@ -137,9 +137,9 @@ all_test
   </a>
 </p>
 
-### Graph
+### Графики
 
-#### 📈 Test Analytics
+#### 📈 Анализ тестов
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
