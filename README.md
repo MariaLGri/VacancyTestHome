@@ -58,7 +58,7 @@
 - ✔️ **Проверка перехода на страницу компании**
 
 
-### Содержание Allure-отчета:
+### ✨ | 📑 Содержание Allure-отчета | ✨
 
 * Шаги теста;
 * Скриншот страницы на последнем шаге;
@@ -70,7 +70,9 @@
 
 <a id="запуск-автотестов"></a>
 
-## Запуск тестов из автотестов терминала
+
+
+### ✨ | 🖥️ Запуск автотестов из терминала | ✨
 ```
 gradle clean 
 all_test 
@@ -86,7 +88,7 @@ all_test
 <a id="сборка-в-jenkins"></a>
 <p align="center"> 
 
-# <img width="28px" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+## <img width="35px" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -106,28 +108,26 @@ all_test
 <a id="пример-allure-отчета"></a>
 <p align="center">
 
-# <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
+## <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 
 
-#### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
+### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
   </a>
 </p>
 
-### [Тест-сьюты](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
 
-#### 📂 [Группы тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
+### 📂 [Группы тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
 </p>
 
-### [Графики](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
 
-#### 📈 [Анализ тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
+### 📈 [Анализ тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
@@ -165,7 +165,7 @@ all_test
 
 <a id="видео-примера-запуска-тестов"></a>
 
-# <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
+## <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
 
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
