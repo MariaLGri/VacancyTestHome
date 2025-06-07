@@ -47,11 +47,11 @@
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>
 Selenide</code>, сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного
-тестирования.
+тестирования.  
+
 При прогоне тестов для запуска браузеров используется <code>Selenoid</code>.
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов
-в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>
-Jira</code>.
+в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
 <br>
 
@@ -115,6 +115,8 @@ all_test
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure
 Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
+<br>
+
 ---
 
 <a id="пример-allure-отчета"></a>
@@ -146,6 +148,7 @@ Report</code>, при клике на которую откроется стра
   </a>
 </p>
 
+<br>
 
 ---
 
@@ -158,6 +161,8 @@ Report</code>, при клике на которую откроется стра
 <img src="media/pictures/allure_testops_dahsbord.png">
 </p>
 
+<br>
+
 ---
 
 <a id="уведомления-в-telegram"></a>
@@ -168,7 +173,7 @@ Report</code>, при клике на которую откроется стра
 сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img width="60%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
+<img width="400" title="Telegram Notifications" src="media/pictures/telegram.PNG">
 </p>
 
 ---
@@ -179,6 +184,7 @@ Report</code>, при клике на которую откроется стра
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 
+<br>
 
 <p align="center">
   <img src="media/Video/video.gif" alt="Demo" width="500">
