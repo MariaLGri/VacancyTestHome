@@ -10,7 +10,6 @@ import static io.qameta.allure.Allure.step;
 
 
 @DisplayName("Автотесты на форму вакансии на сайте НН")
-@Tag("start")
 public class VacancyTest extends TestBase {
     VacancyJavaQaPage vacancyJavaQaPage = new VacancyJavaQaPage();
 
