@@ -1,4 +1,3 @@
-
 <p align="center"> 
 <a href="https://offer-now.ru/" title="Официальный сайт компании" style="color: #0066cc; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
   <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400px" height="70px">
@@ -6,7 +5,7 @@
 
 <div align="center">
   <h3>ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ OFFER NOW</h3>
-      
+
   </a>
 </div>
 
@@ -25,7 +24,10 @@
 ---
 
 <a id="используемый-стек"></a>
+
 # :computer: Используемый стек
+
+<br>
 
 <p align="center">
   <a href="https://www.jetbrains.com/idea/" target="_blank"><img width="50px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png" alt="IntelliJ IDEA"></a>
@@ -41,10 +43,17 @@
   <a href="https://telegram.org/" target="_blank"><img width="50px" title="Telegram" src="media/icons/Telegram.png" alt="Telegram"></a>
 </p>
 
+<br>
 
-Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>Selenide</code>, сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
+Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>
+Selenide</code>, сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного
+тестирования.
 При прогоне тестов для запуска браузеров используется <code>Selenoid</code>.
-Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
+Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов
+в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>
+Jira</code>.
+
+<br>
 
 ### ✅ Проверки
 
@@ -57,6 +66,7 @@
 - ✔️ **Проверка количества звёзд в отзыве**
 - ✔️ **Проверка перехода на страницу компании**
 
+<br>
 
 ### ✨ | 📑 Содержание Allure-отчета | ✨
 
@@ -66,13 +76,12 @@
 * Логи браузерной консоли;
 * Видео выполнения автотеста.
 
----
+<br>
 
 <a id="запуск-автотестов"></a>
 
-
-
 ### ✨ | 🖥️ Запуск автотестов из терминала | ✨
+
 ```
 gradle clean 
 all_test 
@@ -81,14 +90,16 @@ all_test
 -DbrowserSize=1920x1200 
 -DselenoidUrl=selenoid.autotests.cloud 
 ```
+
 При выполнении данной команды в терминале IDE тесты запустятся удаленно в <code>Selenoid</code>.
 
+<br>
 ---
 
 <a id="сборка-в-jenkins"></a>
 <p align="center"> 
 
-## <img width="35px" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
+# <img width="40px" style="vertical-align:middle" src="media/pictures/Jenkins_logo.png" alt="Jenkins Logo"> Сборка в Jenkins
 
 </p>
 
@@ -101,33 +112,34 @@ all_test
 <img title="Jenkins Build" src="media/pictures/build.PNG">
 </p>
 
-После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code>, при клике на которую откроется страница с сформированным отчетом.
+После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure
+Report</code>, при клике на которую откроется страница с сформированным отчетом.
 
 ---
 
 <a id="пример-allure-отчета"></a>
 <p align="center">
 
-## <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
-
+# <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 
 ### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
+
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
   </a>
 </p>
 
-
 ### 📂 [Группы тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
+
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
 </p>
 
-
 ### 📈 [Анализ тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
+
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
@@ -139,8 +151,7 @@ all_test
 
 <a id="Интеграция"></a>
 
-
-## <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank"><img width="28px" src="media/icons/AllureTestOps.svg" alt="Allure TestOps"> Интеграция с Allure TestOps</a>
+# <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank"><img width="28px" src="media/icons/AllureTestOps.svg" alt="Allure TestOps"> Интеграция с Allure TestOps</a>
 
 <p align="center">
    <br>
@@ -151,11 +162,10 @@ all_test
 
 <a id="уведомления-в-telegram"></a>
 
+# <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов в Телеграм
 
-## <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов в Телеграм
-
-
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
+После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет
+сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img width="60%" title="Telegram Notifications" src="media/pictures/telegram.PNG">
@@ -165,8 +175,7 @@ all_test
 
 <a id="видео-примера-запуска-тестов"></a>
 
-## <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
-
+# <img width="6%" style="vertical-align:middle" title="Selenoid" src="media/icons/Selenoid.png"> Видео примера запуска тестов в Selenoid
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 
