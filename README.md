@@ -109,10 +109,6 @@ all_test
 # <img width="28px" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 
 
-
-
-## 📊 [Аналитика Allure Report](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
-
 #### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
