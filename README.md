@@ -4,8 +4,7 @@
     <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400" height="70" style="border: 0;">
     <br>
     <span style="color: #0066cc; font-size: 1.25rem; font-weight: 600; margin-top: 8px; display: inline-block;">
-      Официальный сайт
-    </span>
+         </span>
   </a>
 </p>
 
@@ -202,6 +201,7 @@ Report</code>, при клике на которую откроется стра
 <p align="center">
   <img src="media/Video/video.gif" alt="Demo" width="500">
 </p>
+
    </td>
   </tr>
 </table>
