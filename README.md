@@ -111,9 +111,9 @@ all_test
 
 
 
-## 📊 Аналитика Allure Report
+## 📊 Allure Report Insights
 
-#### 🔍 Обзор
+#### 🔍 Overview
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
@@ -124,9 +124,9 @@ all_test
   </a>
 </p>
 
-### Тест-сьюты
+### Suites
 
-#### 📂 Группы тестов
+#### 📂 Test Suites
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
@@ -137,9 +137,9 @@ all_test
   </a>
 </p>
 
-### Графики
+### Graph
 
-#### 📈 Анализ тестов
+#### 📈 Test Analytics
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
