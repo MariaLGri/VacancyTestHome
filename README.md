@@ -1,4 +1,4 @@
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 10px;">
+
 <p align="center">
   <a href="https://offer-now.ru/" target="_blank" title="Официальный сайт компании" style="text-decoration: none;">
     <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400" height="70" style="border: 0;">
@@ -16,6 +16,9 @@
 </div>
 
 ---
+<table>
+  <tr>
+    <td style="background-color: #f5f9ff; padding: 20px; border: 1px solid #e0e8f5;">
 
 ## :scroll: Содержание:
 
@@ -199,4 +202,6 @@ Report</code>, при клике на которую откроется стра
 <p align="center">
   <img src="media/Video/video.gif" alt="Demo" width="500">
 </p>
-</div>
+   </td>
+  </tr>
+</table>
