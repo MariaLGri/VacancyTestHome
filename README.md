@@ -1,12 +1,12 @@
 
 <p align="center"> 
+<a href="https://offer-now.ru/" title="Официальный сайт компании" style="color: #0066cc; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
   <img src="media/pictures/company_logo.png" alt="HAR Logo" width="400px" height="70px">
 </p>
 
 <div align="center">
-  <h3>ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ</h3>
-  <a href="https://offer-now.ru/" title="Официальный сайт" style="color: #0066cc; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
-    OFFER NOW
+  <h3>ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ OFFER NOW</h3>
+      
   </a>
 </div>
 
@@ -28,23 +28,22 @@
 # :computer: Используемый стек
 
 <p align="center">
-<img width="50px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png">
-<img width="50px" title="Java" src="media/icons/Java.png"> 
-<img width="50px" title="Java" src="media/icons/Selenide.svg"> 
-<img width="50px" title="Selenoid" src="media/icons/Selenoid.png">
-<img width="50px" title="Allure Report" src="media/icons/Allure_Report.png">
-<img width="50px" title="Gradle" src="media/icons/Gradle.png">
-<img width="50px" title="JUnit5" src="media/icons/JUnit5.png">
-<img width="50px" title="JUnit5" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-<img width="50px" title="Jenkins" src="media/icons/Jenkins.png">
-<img width="50px" title="Jenkins" src="media/icons/AllureTestOps.svg">
-<img width="50px" title="Telegram" src="media/icons/Telegram.png">
-
+  <a href="https://www.jetbrains.com/idea/" target="_blank"><img width="50px" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.png" alt="IntelliJ IDEA"></a>
+  <a href="https://www.java.com/" target="_blank"><img width="50px" title="Java" src="media/icons/Java.png" alt="Java"></a>
+  <a href="https://selenide.org/" target="_blank"><img width="50px" title="Selenide" src="media/icons/Selenide.svg" alt="Selenide"></a>
+  <a href="https://aerokube.com/selenoid/" target="_blank"><img width="50px" title="Selenoid" src="media/icons/Selenoid.png" alt="Selenoid"></a>
+  <a href="https://docs.qameta.io/allure/" target="_blank"><img width="50px" title="Allure Report" src="media/icons/Allure_Report.png" alt="Allure Report"></a>
+  <a href="https://gradle.org/" target="_blank"><img width="50px" title="Gradle" src="media/icons/Gradle.png" alt="Gradle"></a>
+  <a href="https://junit.org/junit5/" target="_blank"><img width="50px" title="JUnit5" src="media/icons/JUnit5.png" alt="JUnit5"></a>
+  <a href="https://github.com/" target="_blank"><img width="50px" title="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub"></a>
+  <a href="https://www.jenkins.io/" target="_blank"><img width="50px" title="Jenkins" src="media/icons/Jenkins.png" alt="Jenkins"></a>
+  <a href="https://docs.qameta.io/allure-testops/" target="_blank"><img width="50px" title="AllureTestOps" src="media/icons/AllureTestOps.svg" alt="Allure TestOps"></a>
+  <a href="https://telegram.org/" target="_blank"><img width="50px" title="Telegram" src="media/icons/Telegram.png" alt="Telegram"></a>
 </p>
 
 
 Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
-При прогоне тестов для запуска браузеров используется [Selenoid](https://aerokube.com/selenoid/).
+При прогоне тестов для запуска браузеров используется Selenoid().
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
 ### ✅ Проверки
