@@ -90,7 +90,7 @@ Jira</code>.
 ### ✨ | 🖥️ Запуск автотестов из терминала | ✨
 
 ```
-gradle clean 
+gradle clean test
 -Dbrowser=chrome 
 -DbrowserVersion=127.0 
 -DbrowserSize=1920x1200 

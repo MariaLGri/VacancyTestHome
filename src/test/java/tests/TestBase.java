@@ -8,6 +8,9 @@ import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
@@ -16,14 +19,17 @@ public class TestBase {
 
     @BeforeAll
     static void installСonfiguration() {
-        String browser = System.getProperty("browser", "chrome");
-        String browserVersion = System.getProperty("browserVersion", "127.0");
-        String screenResolution = System.getProperty("screenResolution", "1920x1080");
+
+        ChromeOptions options = new ChromeOptions();
+        options.setPageLoadStrategy(PageLoadStrategy.EAGER); // NORMAL, EAGER, NONE
+
+        Configuration.browserCapabilities = options;
+        Configuration.browser = "chrome";
 
         Configuration.baseUrl = "https://penza.hh.ru";
-        Configuration.browserSize = screenResolution;
-        Configuration.browser = browser;
-        Configuration.browserVersion = browserVersion;
+        Configuration.browserSize = System.getProperty("screenResolution", "1920x1080");
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "127.0");
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 10000;
         Configuration.remote = String.format(
@@ -41,9 +47,13 @@ public class TestBase {
         ));
         Configuration.browserCapabilities = capabilities;
 
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
     }
 
+    @BeforeEach
+    void installСonfigurationBefore() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
 
     @AfterEach
     void addAttachments() {

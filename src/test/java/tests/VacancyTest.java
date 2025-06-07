@@ -1,7 +1,6 @@
 package tests;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.VacancyJavaQaPage;
 
@@ -44,7 +43,7 @@ public class VacancyTest extends TestBase {
 
     @Test
     @DisplayName("Проверка колличества звезд в отзыве")
-    void vacancyReviewStarUserTest() {
+    public void vacancyReviewStarUserTest() {
         step("Проверяем открытие страницы вакансии Auto QA (Java)", () -> {
             vacancyJavaQaPage.openPage();
         });
