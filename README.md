@@ -9,9 +9,7 @@
 </p>
 
 <div align="center">
-  <h3>ПРОЕКТ ПО АВТОМАТИЗАЦИИ ДЛЯ САЙТА КОМПАНИИ OFFER NOW</h3>
-
-  </a>
+  <h2> ПРОЕКТ АВТОМАТИЗАЦИИ | <img src="media/offer_now_logo.png" width="20" alt=""> OFFER NOW</h2>
 </div>
 
 ---
