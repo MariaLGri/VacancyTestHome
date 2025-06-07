@@ -111,42 +111,30 @@ all_test
 
 
 
-## 📊 Аналитика Allure Report
+## 📊 [Аналитика Allure Report](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
 
-#### 🔍 Обзор
+#### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
   </a>
-  <br>
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #01fdfa; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-    🚀 Открыть полный отчёт
-  </a>
 </p>
 
-### Тест-сьюты
+### [Тест-сьюты](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
 
-#### 📂 Группы тестов
+#### 📂 [Группы тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
-  <br>
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #6a5acd; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-    🔎 Детализация тест-сьютов
-  </a>
 </p>
 
-### Графики
+### [Графики](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
 
-#### 📈 Анализ тестов
+#### 📈 [Анализ тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
 <p align="center">
   <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
     <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
-  </a>
-  <br>
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #2e8b57; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-    📊 Анализ выполнения тестов
   </a>
 </p>
 
@@ -154,26 +142,19 @@ all_test
 ---
 
 <a id="Интеграция"></a>
-# Интеграция
 
-## <img width="28px" src="media/icons/AllureTestOps.svg"> Интеграция с Allure TestOps
 
-### 📈 Аналитика тестов в Allure TestOps
+## <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank"><img width="28px" src="media/icons/AllureTestOps.svg" alt="Allure TestOps"> Интеграция с Allure TestOps</a>
 
 <p align="center">
    <br>
 <img src="media/pictures/allure_testops_dahsbord.png">
- <br>
-  <a href="https://allure.autotests.cloud/project/4774/dashboards" target="_blank" style="background-color:#00B4A0;color:white;padding:10px 24px;border-radius:6px;text-decoration:none;font-weight:500;margin-top:16px;display:inline-block;">
-    Открыть в Allure TestOps
-  </a>
 </p>
 
 ---
 
 <a id="уведомления-в-telegram"></a>
 
-# Результат выполнения автотестов
 
 ## <img width="28px" style="vertical-align:middle" title="Selenoid" src="media/icons/Telegram.png"> Результат выполнения автотестов в Телеграм
 
