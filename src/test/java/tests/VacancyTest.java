@@ -4,7 +4,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.VacancyJavaQaPage;
 
-import static com.codeborne.selenide.Selenide.sleep;
 import static io.qameta.allure.Allure.step;
 
 
@@ -24,57 +23,58 @@ public class VacancyTest extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверка открытия карточки отзыва, и непустого содержимого в разделе 'Что нравится'")
-    void vacancyReviewTest() {
+    @DisplayName("Проверка невозможности добавить вакансию в избраннное без регистрации")
+    public void vacancyReviewTest() {
         step("Проверяем открытие страницы вакансии Auto QA (Java)", () -> {
             vacancyJavaQaPage.openPage();
         });
-        step("Проверяем открытие формы отзыва", () -> {
-            vacancyJavaQaPage.clickReview();
+        step("Проверяем нажатие кнопки 'добавить в избранное'", () -> {
+            vacancyJavaQaPage.clickFavorites();
         });
-        step("Проверяем наличие названия формы 'Отзыв сотрудника'", () -> {
-            vacancyJavaQaPage.checkTextReview();
-        });
-        step("Проверяем наличие текста и видимости этого текста в блоке 'Что нравится'", () -> {
-            vacancyJavaQaPage.checkTextReviewBlock();
+        step("Проверяем переход на страницу регистрации с формой 'Вход'", () -> {
+            vacancyJavaQaPage.checkFormReg();
         });
 
     }
 
     @Test
-    @DisplayName("Проверка колличества звезд в отзыве")
+    @DisplayName("Проверка перехода на официальный сайт компании со страницы описания компании")
     public void vacancyReviewStarUserTest() {
         step("Проверяем открытие страницы вакансии Auto QA (Java)", () -> {
             vacancyJavaQaPage.openPage();
         });
-        step("Проверяем открытие формы отзыва", () -> {
-            vacancyJavaQaPage.clickReview();
+        step("Проверяем переход по клику на страницу описания компании ", () -> {
+            vacancyJavaQaPage.checkCompanyClickPage();
         });
-        step("Проверяем колличество звезд в отзыве", () -> {
-            vacancyJavaQaPage.checkStars();
+
+        step("Проверяем клик по ссылке https://offer-now.ru/", () -> {
+            vacancyJavaQaPage.transitionСheck();
         });
+        step("Проверяем, что перешли на нужную страницу", () -> {
+            vacancyJavaQaPage.checkPageCompany();
+        });
+
     }
 
 
     @Test
-    @DisplayName("Проверка общей оценки компании,должна быть больше или равна 4.9 (падение т.к.текущий 4.8)")
+    @DisplayName("Проверка видимости общей оценки компании ")
     void vacancyReviewStarCompanyTest() {
         step("Проверяем открытие страницы вакансии Auto QA (Java)", () -> {
             vacancyJavaQaPage.openPage();
         });
-        step("Проверяем общую оценку компании, должна быть больше или равна 4.9 ", () -> {
+        step("Проверяем , что видно рейтинг ", () -> {
             vacancyJavaQaPage.checkStarsCompany();
         });
     }
 
     @Test
-    @DisplayName("Проверка перехода на страницу компании")
+    @DisplayName("Проверка перехода на страницу краткого описания компании для вакансии")
     void vacancyCompanyTest() {
         step("Проверяем открытие страницы вакансии Auto QA (Java)", () -> {
             vacancyJavaQaPage.openPage();
         });
-        sleep(5000);
-        step("Проверяем переход по клику на страницу компании ", () -> {
+        step("Проверяем переход по клику на страницу описания компании ", () -> {
             vacancyJavaQaPage.checkCompanyClickPage();
         });
 

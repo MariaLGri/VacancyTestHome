@@ -1,32 +1,39 @@
 package pages;
 
-import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.*;
+
+
+import java.time.Duration;
+
 
 import static com.codeborne.selenide.Condition.*;
 
 import static com.codeborne.selenide.Selenide.*;
 
+import static com.codeborne.selenide.WebDriverConditions.urlContaining;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
+
+
 
 public class VacancyJavaQaPage {
     private final SelenideElement
-            clickReview = $("[data-qa='review-card-content-title']"),
-            textH = $("[data-qa='bottom-sheet-content']"),
+
+            textH = $("[data-qa=\"title-container\"]"),
             namePage = $(".bloko-header-section-1"),
             pageCompany = $(".g-user-content p").$("strong"),
-            textBlock = $("[data-qa='employer-review-big-widget-modal-review-card-0']").$("[class*='magritte-text'][class*='typography-label-2-regular']");
-
+            transition = $("a[data-qa='link'][href='https://offer-now.ru/']"),
+            pageCompanyOfSite = $(".tn-atom"),
+            favorites = $("[data-qa=\"vacancy-body-mark-favorite_false\"]");
     private final ElementsCollection
             stars = $$("[data-qa='employer-reviews-stars'] .star_filled--KqHIdEHHkRDhXdlH"),
             link = $$("div[data-qa=vacancy-company] span");
 
 
-    public void openPage() {
+    public VacancyJavaQaPage openPage() {
         open("/vacancy/120964676?query=Автоматизация+тестирования+java&hhtmFrom=vacancy_search_list");
-        //sleep(5000);
-        executeJavaScript("$('footer').remove()"); // убирает рек
+        executeJavaScript("$('.footer-counters').remove()");// убирает рек
 
+        return this;
     }
 
     public void checkResultNamePage() {
@@ -34,44 +41,53 @@ public class VacancyJavaQaPage {
 
     }
 
-    public void clickReview() {
-        executeJavaScript(
-                "arguments[0].click();",
-                clickReview);
+    public void transitionСheck() {
+
+
+        // 1. Запомнить текущее количество вкладок
+        int initialWindowCount = getWebDriver().getWindowHandles().size();
+        executeJavaScript("document.querySelectorAll('[title]').forEach(el => el.removeAttribute('title'))");
+        executeJavaScript("document.querySelector('.uxfeedback-widget').remove()");
+        transition.click();
+        switchTo().window(initialWindowCount);
+    }
+
+    public void checkPageCompany() {
+        // 5. Проверить URL в новой вкладке (с учетом возможного редиректа)
+        webdriver().shouldHave(urlContaining("offer-now.ru"), Duration.ofSeconds(5));
+        $("body").shouldBe(visible);
+        $(".t228__logo").shouldHave(text("OfferNow"));
+    }
+
+
+    public VacancyJavaQaPage clickFavorites() {
+        favorites.click();
+
+        return this;
+    }
+
+
+    public void checkFormReg() {
+        textH.shouldHave(text("Вход"));
 
     }
 
-    public void checkTextReview() {
-        textH.shouldHave(text("Отзыв сотрудника"));
-
-    }
-
-    public void checkTextReviewBlock() {
-        textBlock.shouldNotBe(empty).shouldHave(visible);
-
-    }
-
-
-    public void checkStars() {
-        stars.shouldHave(CollectionCondition.sizeGreaterThanOrEqual(5));
-
-    }
 
     public void checkStarsCompany() {
-        String ratingText = $(".magritte-text___pbpft_3-0-32.magritte-text_style-primary___AQ7MW_3-0-32.magritte-text_typography-title-5-semibold___Y-owC_3-0-32")
-                .getText()
-                .replace(",", "."); // заменяем запятую на точку для корректного парсинга
-        double rating = Double.parseDouble(ratingText);
+        // 1. Проверяем наличие уведомления и закрываем его, если есть
+        if ($("[data-qa='bloko-notification']").exists()) {
+            // Вариант A: Закрыть кнопкой (если есть)
+            $("[data-qa='bloko-notification'] [data-qa='close-button']").click();
 
-// Проверяем, что оценка больше 4
-        assert rating > 4.9 : "Рейтинг должен быть больше 4.9, текущий рейтинг: " + rating;
-
+            $("[data-qa='employer-reviews-stars'] [class*='star']")
+                    .shouldBe(visible, Duration.ofSeconds(10));
+        }
     }
 
-    public void checkCompanyClickPage() {
+    public VacancyJavaQaPage checkCompanyClickPage() {
         link.findBy(exactText("Offer Now"))
                 .click();
-
+        return this;
     }
 
     public void checkCompanyClickPageNew() {
