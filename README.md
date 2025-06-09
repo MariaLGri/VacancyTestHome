@@ -192,7 +192,7 @@ Report</code>, при клике на которую откроется стра
 <br>
 
 <p align="center">
-  <img src="media/Video/video.gif" alt="Demo" width="500">
+  <img src="media/Video/video.gif" alt="Demo" width="700">
 </p>
 
    </td>
