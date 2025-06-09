@@ -128,27 +128,26 @@ Report</code>, при клике на которую откроется стра
 
 # <img width="38" style="vertical-align:middle" alt="Allure Report" src="media/icons/Allure_Report.png"> Пример Allure-отчета
 
-### 🔍 [Обзор](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#)
+### 🔍 Обзор
 
 <p align="center">
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#" target="_blank" rel="noopener noreferrer">
-    <img src="media/pictures/allure_overview.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/29/allure/" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/A_report.png" alt="Allure Overview Dashboard" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
   </a>
 </p>
 
-### 📂 [Группы тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/)
-
+### 📂 Группы тестов
 <p align="center">
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/e16f0f1c4492a626/" target="_blank" rel="noopener noreferrer">
-    <img src="media/pictures/suites.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/29/allure/#suites/a657a03f5cf0e7f2aa2f3b2cec09b6fd/b0c9276acbc5217e/" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/testgrup.png" alt="Allure Test Suites" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
 </p>
 
-### 📈 [Анализ тестов](https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph)
+### 📈 Анализ тестов
 
 <p align="center">
-  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/23/allure/#graph" target="_blank" rel="noopener noreferrer">
-    <img src="media/pictures/graph.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
+  <a href="https://jenkins.autotests.cloud/job/035_vacancy_test_home/29/allure/#graph" target="_blank" rel="noopener noreferrer">
+    <img src="media/pictures/graphs.png" alt="Allure Analytics Graph" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; margin-top: 20px;">
   </a>
 </p>
 
@@ -162,7 +161,7 @@ Report</code>, при клике на которую откроется стра
 
 <p align="center">
    <br>
-<img src="media/pictures/allure_testops_dahsbord.png">
+<img src="media/pictures/A_testOps.png">
 </p>
 
 <br>
